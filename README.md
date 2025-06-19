@@ -24,6 +24,15 @@ The model combines convolutional neural networks (CNN) for local feature extract
 - Test Accuracy: **93%** ✅  
 - Classification report and confusion matrix provided in the evaluation script.
 
+📸 **Confusion Matrix**
+---
+![Confusion Matrix](scripts/Confusion_matrix.png)
+---
+
+## Version
+
+📦 **Trained Model Version:** `v1.0` — released in this repository as `improved_cnn_transformer_har.pth`.
+
 ---
 
 ## Usage ▶️
@@ -48,4 +57,3 @@ Install dependencies via:
 
 ```bash
 pip install torch numpy scikit-learn matplotlib seaborn
-```
